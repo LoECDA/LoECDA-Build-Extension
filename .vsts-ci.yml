@@ -1,0 +1,12 @@
+---
+queue:
+  name: Hosted VS2017
+
+steps:
+- script: |
+    cd PowerShellBuild
+    npm install
+    tsc -p .
+    cd ..
+- script: npm install -g tfx-cli
+- script: tfx extension create

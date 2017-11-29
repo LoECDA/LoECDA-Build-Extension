@@ -1,0 +1,59 @@
+{
+    "manifestVersion": 1,
+    "id": "68377f11-49ef-47cc-8f89-8521c12dc65e",
+    "name": "Yo Team Build Tasks",
+    "version": "0.0.5",
+    "publisher": "LoECDA",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Tasks to help get your CI/CD Pipelines going.",
+    "categories": [
+        "Build and release"
+    ],
+    "tags": [
+        "powershell",
+        "unit",
+        "lint",
+        "syntax"
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "links": {
+        "support": {
+            "uri": "https://github.com/LoECDA/LoECDA-Build-Extension"
+        }
+    },
+    "branding": {
+        "color": "rgb(36, 43, 50)",
+        "theme": "dark"
+    },
+    "icons": {
+        "default": "icon.png"
+    },
+    "files": [
+        {
+            "path": "PowerShellBuild"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "c7f221ba-f39c-47b0-bdf8-aa9ca2a13cdb",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "PowerShellBuild"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "vsts-powershell-build-task",
+    "version": "1.0.0",
+    "description": "VSTS PowerShell Build Task",
+    "main": "powershellBuild.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LoECDA/LoECDA-Build-Extension.git"
+    },
+    "author": "League of Extraordinary Cloud Developer Advocates",
+    "license": "MIT",
+    "dependencies": {
+        "vsts-task-lib": "^2.0.5"
+    },
+    "devDependencies": {
+        "@types/q": "^1.0.6",
+        "@types/node": "^8.5.2"
+    }
+}
