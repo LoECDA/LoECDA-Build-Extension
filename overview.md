@@ -20,7 +20,13 @@ Inputs:
 
 #### Run Static Code Analysis (PSScriptAnalyzer)
 
-Validates
+Uses [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) to evaluate the quality of PowerShell script in your project.
+
+If you project has a `PSScriptAnalyzerSettings.psd1` file in the root of your project, those settings will be respected.
+
+Inputs: 
+
+* ``
 
 #### Run Pester
 
